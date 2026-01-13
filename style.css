@@ -150,6 +150,12 @@ main{
     font-weight: bold;
     display: inline-flex;
     font-size: 15px;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+.project-item a:hover{
+    color: rgb(56, 12, 12)
 }
 
 .project-content{
@@ -188,7 +194,14 @@ main{
     font-weight: bold;
     display: inline-flex;
     font-size: 15px;
+    text-decoration: none;
+    transition: color 0.1s;
 }
+
+.contact-info a:hover{
+        color: rgb(56, 12, 12);
+}
+
 .footer{
     display: flex;
     margin-top: auto;
